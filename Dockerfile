@@ -3,7 +3,7 @@ ARG BUILD_ARCH
 
 
 ENV \
-  GUAC_VER=1.3.0 \
+  GUAC_VER=1.4.0 \
   GUACAMOLE_HOME=/app/guacamole \
   PG_MAJOR=9.6 \
   PGDATA=/data/postgres \
