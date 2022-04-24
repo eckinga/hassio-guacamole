@@ -10,7 +10,7 @@
     "panel_icon": "mdi:remote-desktop",
     "ingress": true,
     "ingress_port": 8080,
-    "image": "eckinga/hass-guacamole",
+    "image": "eckinga/hassio-guacamole",
     "options": {},
     "schema": {},
     "ports": {}
