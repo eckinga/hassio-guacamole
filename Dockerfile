@@ -5,8 +5,8 @@ ARG BUILD_ARCH
 ENV \
   GUAC_VER=1.4.0 \
   GUACAMOLE_HOME=/app/guacamole \
-  PG_MAJOR=9.6 \
-  PGDATA=/data/postgres \
+  PG_MAJOR=11 \
+  PGDATA=/config/postgres \
   POSTGRES_USER=guacamole \
   POSTGRES_DB=guacamole_db
   
@@ -81,9 +81,9 @@ RUN set -xe \
   ;done
 
 ENV PATH=/usr/lib/postgresql/${PG_MAJOR}/bin:$PATH
-ENV GUACAMOLE_HOME=/data/guacamole
+ENV GUACAMOLE_HOME=/config/guacamole
 
-WORKDIR /data
+WORKDIR /config
 
 COPY root /
 
