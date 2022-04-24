@@ -10,7 +10,7 @@
     "panel_icon": "mdi:remote-desktop",
     "ingress": true,
     "ingress_port": 8080,
-    "image": "guacamole/guacamole",
+    "image": "maxwaldorf/guacamole",
     "options": {},
     "schema": {},
     "ports": {}
