@@ -1,4 +1,4 @@
-FROM tomcat:9-jre11
+FROM tomcat:jdk15-openjdk-slim-buster
 ARG BUILD_ARCH
 
 
