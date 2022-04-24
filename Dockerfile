@@ -6,7 +6,7 @@ ENV \
   GUAC_VER=1.4.0 \
   GUACAMOLE_HOME=/app/guacamole \
   PG_MAJOR=11 \
-  PGDATA=/config/postgres \
+  PGDATA=/data/postgres \
   POSTGRES_USER=guacamole \
   POSTGRES_DB=guacamole_db
   
@@ -81,9 +81,9 @@ RUN set -xe \
   ;done
 
 ENV PATH=/usr/lib/postgresql/${PG_MAJOR}/bin:$PATH
-ENV GUACAMOLE_HOME=/config/guacamole
+ENV GUACAMOLE_HOME=/data/guacamole
 
-WORKDIR /config
+WORKDIR /data
 
 COPY root /
 
