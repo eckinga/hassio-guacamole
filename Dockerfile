@@ -13,7 +13,7 @@ STOPSIGNAL SIGKILL
 
 LABEL org.opencontainers.image.ref.name="${PACKAGE}" \
   org.opencontainers.image.created=$BUILD_RFC3339 \
-  org.opencontainers.image.authors="MaxWaldorf,OZNU" \
+  org.opencontainers.image.authors="MaxWaldorf,OZNU,eckinga" \
   org.opencontainers.image.documentation="https://github.com/${PACKAGE}/README.md" \
   org.opencontainers.image.description="${DESCRIPTION}" \
   org.opencontainers.image.licenses="GPLv3" \
